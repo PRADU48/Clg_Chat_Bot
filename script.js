@@ -48,6 +48,6 @@ btn.addEventListener('click', () => {
         quickAns("Admission starts from June");
     }
     else {
-        quickAns("Sorry! I can't understand");
+        quickAns("Sorry! I can't understand.");
     }
 });
