@@ -26,3 +26,6 @@
     <li>style.css: CSS file for styling the chatbot.</li>
     <li>script.js: JavaScript file implementing the chatbot logic.</li>
 </ul>
+
+<h2>Note</h2>
+<p>This is only MVP not added in my college website!</p>
