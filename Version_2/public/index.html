@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KPMIM Chat Bot</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Floating Chat Button -->
+    <button class="floating-btn" id="floatingBtn" title="Open Chat">💬</button>
+
+    <!-- Chat Container -->
+    <div class="container" id="chatContainer" aria-hidden="true">
+        <div class="header">
+            <div class="header-content">
+                <p style="font-weight:700">Prin. K. P. MIM Chat Bot</p>
+                <p id="aboutDev">Developed by BCA student <strong>Pradhumn Pawar</strong></p>
+            </div>
+            <button class="close-btn" id="closeBtn" title="Close Chat" aria-label="Close chat">✕</button>
+        </div>
+
+        <div class="chatWindow" role="log" aria-live="polite">
+            <p class="bot-msg">Hello! I am the college bot — ask me about admissions, courses, contact info and more.
+            </p>
+        </div>
+
+        <div class="input">
+            <input type="text" id="Questions" placeholder="Type your question here..." autocomplete="off"
+                aria-label="Type your question">
+            <button class="send" id="sendBtn" title="Send">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
