@@ -39,9 +39,6 @@ const trainingExamples = [
     { text: "what documents required for admission", intent: "documents" },
     { text: "documents needed", intent: "documents" },
 
-    { text: "are hostels available", intent: "hostel" },
-    { text: "is there hostel facility", intent: "hostel" },
-
     { text: "do you have a library", intent: "library" },
     { text: "library timing", intent: "library" },
 
@@ -72,12 +69,11 @@ const trainingExamples = [
 const answers = {
     address: "156-B, Railway lines, Dufferin Chowk, Solapur, Maharashtra-413001.",
     contact: "Phone: 0217-2317964 / 0217-2310029. Email: info@kpmim.org.",
-    courses: "The institute offers management and professional programs including MBA and other UG/PG courses. See the website for full list.",
+    courses: "The institute offers management and professional programs including MBA and other UG/PG BCA, BBA courses. See the website for full list.",
     approval: "The institute is approved/recognized by AICTE and affiliated to the university (check the official site for certificates).",
     established: "The institute was established in the late 1990s and has been serving management education in Solapur.",
     admission_process: "Apply online via the college website’s admissions section or contact the admin office for details.",
     documents: "Typical documents: mark sheets, ID proof, passport size photos, and completed application form.",
-    hostel: "Hostel facilities are available for students. Please contact the college office for seat & fee details.",
     library: "Yes, there is a library with print and digital resources for students.",
     principal: "Director: Dr. O.M. Ashtankar (refer to faculty page for full details).",
     placement: "The Training & Placement cell coordinates internships and placements with industry partners.",
