@@ -1,6 +1,6 @@
 // =============================================
 // KPMIM Smart College Chat Bot
-// TF-IDF + Cosine Similarity
+// TF-IDF + Cosine Similarity 
 // =============================================
 
 const chatWin = document.querySelector(".chatWindow");

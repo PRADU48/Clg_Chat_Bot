@@ -1,5 +1,10 @@
 [
     {
+        "question": "Who is developer of this bot?",
+        "keywords": ["developer", "creator", "maker", "who", "bot"],
+        "answer": "This bot is developed by Pradhumn Pawar. He is a BCA student. You can contact him on instagram @pradyumna.49|"
+    },
+    {
         "question": "What are the fees?",
         "keywords": ["fees", "cost"],
         "answer": "BCA fees are: ₹22,000 PA. BBA fees are: ₹19,000 PA. MBA fees are: ₹24,000 PA."
