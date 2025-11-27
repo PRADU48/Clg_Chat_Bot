@@ -96,6 +96,7 @@ trainingExamples.forEach(item => classifier.addDocument(item.text, item.intent))
 // Additional augmenting examples (small)
 [
     ["tell me the address", "address"],
+    ["what programs do you provide", "courses"],
     ["phone number please", "contact"],
     ["how to apply for admission", "admission_process"],
     ["documents needed for admission", "documents"],
@@ -121,7 +122,7 @@ app.post("/chat", (req, res) => {
         const confidence = top ? top.value : 0;
 
         // set a threshold for "unsure"
-        const threshold = 0.25; // tweak if you want more/less strict
+        const threshold = 0.75; // tweak if you want more/less strict
         let reply = "Sorry! I don't understand that. Please rephrase or check the website.";
         let intent = null;
 
@@ -136,6 +137,9 @@ app.post("/chat", (req, res) => {
             } else if (normalized.includes("phone") || normalized.includes("contact") || normalized.includes("email")) {
                 intent = "contact";
                 reply = answers.contact;
+            } else if (normalized.includes("courses") || normalized.includes("courses") || normalized.includes("email")) {
+                intent = "courses";
+                reply = answers.courses;
             }
             // else keep default "don't understand"
         }
